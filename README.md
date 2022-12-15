@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# GET FUNDS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Smart Contract to get funds from people and withdraw them, Using Solidity and Hardhat.
+
 
 Try running some of the following tasks:
 
+
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn hardhat help
+yarn hardhat test
+yarn hardhat node
+yarn hardhat run scripts/fund.js
+yarn hardhat run scripts/withdraw.js
+yarn hardhat deploy
 ```
